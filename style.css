@@ -162,7 +162,7 @@ input[type="checkbox"] {
 #botao input:hover {
     background-color: #0b58bd;
     text-decoration: underline;
-    transition-duration: .25s;
+    transition-duration: 1s;
 }
 
 /* FOOTER */
@@ -252,4 +252,10 @@ footer #mapaDoSite h3 {
 
 #termos a:first-child{
     border-right: 1px solid white;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: red;
+    }
 }
