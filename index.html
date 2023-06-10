@@ -7,6 +7,78 @@
     <title>Bootcamp DNC</title>
 </head>
 <body>
-    
+   <nav id="header">
+        <div id="menu">
+            <a href="#">Home</a>
+            <a href="#">Últimas Edições</a>
+            <a href="#">Requisitos para Participar</a>
+        </div>
+          <input id="button" type="button" value="Login">
+   </nav>
+   <main>
+        <div id="titulo">
+            <h1>
+                bootcamp DNC
+            </h1>
+            <p>
+                Esse será um evento exclusivo para todos os alunos da DNC, que querem <strong class="destaque">acelerar a carreira</strong> com uma semana intensiva de conteúdo de mercado entre  <strong class="destaque">BACK-END, FRONT-END & BANCO DE DADOS.</strong>
+            </p>
+        </div>
+        <form action="post" id="formulario">
+            <labek>Nome:</labek>
+            <input type="text" name="nome" id="formularioNome" placeholder="Insira seu nome aqui.">
+            <label for="">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="formularioSobrenome" placeholder="Insira seu sobrenome aqui.">
+            <label for="">Área de Interesse:</label>
+            <div id="interesse">
+                <input type="checkbox" name="frontend" id="formularioFrontend"> <label for="formularioFrontend">Front-End</label>
+                <input type="checkbox" name="frontend" id="formularioFrontend"> <label for="formularioFrontend">Back-end</label>
+                <input type="checkbox" name="bd" id="formularioBd"> <label for="formularioBd">Banco de Dados</label>
+            </div>
+            <label>E-mail:</label>
+            <input type="email" name="email" id="formularioEmail" placeholder="Insira seu e-mail aqui">
+            <label>Telefone:</label>
+            <input type="tel" name="telefone" id="formularioTelefone" placeholder="(99) 99999-9999">
+            <label>Insira uma frase criativa aqui:</label>
+            <input type="text" name="frase" id="formularioFrase" placeholder="Qual frase criativa você gostaria de falar? :)">
+            <div id="botao">
+                <input type="button" value="Cadastrar">
+            </div>
+        </form>
+   </main>
+   <footer>
+        <nav id="mapaDoSite">
+            <div id="lista01" class="lista">
+                <h3>Escolar</h3>
+                <ul>
+                    <li>Formação em Tecnologia</li>
+                    <li>Formação em Marketing</li>
+                    <li>Formação em Dados</li>
+                    <li>formação em Projetos</li>
+                    <li>Formação em Produto</li>
+                </ul>
+            </div>
+            <div id="lista02" class="lista">
+                <h3>
+                    Sobre a DNC
+                </h3>
+                <ul>
+                    <li>História</li>
+                    <li>Missão e Valores</li>
+                    <li>Trabalhe Conosmo</li>
+                    <li>Conteúdo Gratuito</li>
+                </ul>
+            </div>
+            <div id="endereco">
+                <p>
+                    © 2022 DTC Treinamentos & Consultoria LTDA | CNPJ: 27.995.577/0001-37 | R. Justino Cobra, 61 – Vila Ema | São José dos Campos – SP | CEP 12243-030
+                </p>
+            </div>
+        </nav>
+        <div id="termos">
+            <a href="">Termos de Uso</a>
+            <a href="">Política de Privacidade</a>
+        </div>
+   </footer>
 </body>
 </html>
