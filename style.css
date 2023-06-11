@@ -82,7 +82,7 @@ main {
 }
 
 main #titulo h1 {
-    font-size: 80px;
+    font-size: 5em;
     font-weight: 800;
     text-transform: uppercase;
     padding: 80px 0 25px 0;
@@ -90,11 +90,10 @@ main #titulo h1 {
 }
 
 main #titulo p {
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 500;
     color: white;
-    width: 1018px;
-    margin: auto;
+    padding: 25px 450px;
 }
 
 .destaque {
@@ -255,7 +254,77 @@ footer #mapaDoSite h3 {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: red;
+    #header {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 20px;
     }
+
+    #menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    #menu a {
+        height: 40px;
+        margin: 0 auto;
+    }
+
+    #button {
+        margin: 0 auto;
+        height: 40px;
+    }
+    
+    main #titulo p {
+        padding: 25px 10px;
+    }
+
+    main #titulo h1 {
+        font-size: 3em;
+    }
+
+    #formulario {
+        margin: auto 20px;
+        width: 90%;
+    }
+
+    #interesse {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    #mapaDoSite {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px auto;
+        
+    }
+
+    #lista01 {
+        width: auto;
+        margin-bottom: 40px;
+    }
+
+    #lista02 {
+        width: auto;
+        margin-bottom: 40px;
+    }
+
+    .lista {
+        margin-left: auto;
+    }
+
+    #endereco {
+        width: auto;
+        margin-bottom: 5px;
+    }
+
+
 }
